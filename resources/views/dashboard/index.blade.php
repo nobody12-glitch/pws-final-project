@@ -3,12 +3,12 @@
     <div class="content-header">
         <div class="container-fluid" style="margin-top: -4em">
             <div class="col-sm-12 mb-4">
-              <h1 class="m-0">Selamat Datang - {{ auth()->user()->name }}</h1>
+              <h1 class="m-0">Welcome - {{ auth()->user()->name }}</h1>
             </div>
             <div class="row mb-2">
               <div class="col-sm-8">
                 <div class="alert alert-info" role="alert">
-                  * Halaman ini digunakan untuk mengelola <a href="#" class="alert-link">Data Pengguna</a>
+                  * This page is mainly purpose to manage the<a href="#" class="alert-link">User Data</a>
                 </div>
               </div>
               <div class="col-sm-4">

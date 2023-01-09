@@ -3,7 +3,7 @@
     <div class="content-header">
         <div class="container-fluid">
             <div class="col-sm-12">
-                <h1 class="m-0">Halaman Berita</h1>
+                <h1 class="m-0">Page News</h1>
             </div>
         </div>
         <div class="card-body">
@@ -12,7 +12,7 @@
                 {{ session('sukses') }}
             </div>
             @endif
-            <a href="/dashboard/berita/create" class="btn btn-primary mb-3">Tambah Berita</a>
+            <a href="/dashboard/berita/create" class="btn btn-primary mb-3">Add News</a>
             <table id="example2" class="table table-bordered table-hover">
                 <thead>
                 <tr>

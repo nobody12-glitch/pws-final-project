@@ -6,12 +6,12 @@
     <div class="card mb-3" style="">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Harvard_shield_wreath.svg/1200px-Harvard_shield_wreath.svg.png" class="img-fluid rounded-start" alt="...">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">University.com</h5>
-              <p class="card-text">Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally. Ptate magni in, ipsa tempore eaque odit rerum provident. Sit at voluptatum consequuntur nesciunt excepturi illo adipisci eos deserunt maxime. Eius error nesciunt modi placeat doloremque. Perferendis aliquid doloremque quisquam odio? Explicabo quaerat in, eum hic, ab beatae ipsum architecto nostrum, atque ut cum repudiandae magnam. Blanditiis pariatur perferendis reprehenderit ratione itaque enim labore perspiciatis, natus voluptate. Assumenda repellat dicta eveniet aspernatur impedit architecto voluptatem ex, corporis quo earum quibusdam, ab magni quas dolor. Cupiditate odit sapiente facere, voluptatum doloremque dolor labore doloribus incidunt harum odio!</p>
+              <h5 class="card-title">M4rvel.com</h5>
+              <p class="card-text">Marvel Entertainment, LLC (formerly Marvel Enterprises ) is an American Entertainment company founded in June 1998 and based in New York City , New York formed by the merger of Marvel Entertainment Group and ToyBiz. The company is a wholly owned subsidiary of The Walt Disney Company , and is primarily known for its comic books by Marvel Comics , as well as its forays into motion pictures , including those within the Marvel Cinematic Universe (MCU).</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 
               <input class="btn btn-primary" type="submit" value="Submit"> <input class="btn btn-primary" type="reset" value="Reset">

@@ -3,14 +3,14 @@
     <div class="card-body">
         <div class="card card-primary">
             <div class="card-header">
-                <h3 class="card-title">Edit Berita</h3>
+                <h3 class="card-title">Edit News</h3>
             </div>
             <form method="POST" action="/dashboard/berita/{{ $berita->slug }}" enctype="multipart/form-data">
             @method('put')
             @csrf
             <div class="card-body">
                 <div class="form-group">
-                    <label for="judul_berita">Judul Berita</label>
+                    <label for="judul_berita">Title of the News</label>
                     <input type="text" class="form-control @error('judul_berita') is-invalid @enderror" id="judul_berita" name="judul_berita" placeholder="Judul Berita" value="{{ old('judul_berita', $berita->judul_berita) }}">
                     @error('judul_berita')
                     <div class="invalid-feedback">
@@ -23,7 +23,7 @@
                     <input type="text" class="form-control" id="slug" name="slug" placeholder="Slug Berita" value="{{ old ('slug', $berita->slug) }}">
                 </div>
                 <div class="form-group">
-                    <label for="category">Kategori</label>
+                    <label for="category">Category</label>
                     <select class="custom-select rounded-0" id="kategori_id" name="kategori_id">
                         @foreach ($kategori as $kategori)
                         @if (old('kategori_id', $berita->kategori_id)==$kategori->id)
@@ -35,11 +35,11 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="foto">Foto</label>
+                    <label for="foto">Photo</label>
                     <input type="hidden" name="foto_lama" value="{{ $berita->foto }}">
                     <input type="file" class="form-control @error ('foto') is-invalid @enderror"
                     id="foto" name="foto">
-                    <p style="margin-top:10px; font-size: 90%; color: rgb(18, 138, 250);"><i> Upload Foto jika ada perubahan.</i></p>
+                    <p style="margin-top:10px; font-size: 90%; color: rgb(18, 138, 250);"><i> Upload photo for make any changes.</i></p>
                     @error('foto')
                     <div class="invalid-feedback">
                         {{ $message }}
@@ -47,7 +47,7 @@
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label for="isi_berita">Isi Berita</label>
+                    <label for="isi_berita">News</label>
                     @error('isi_berita')
                     <p class="text-danger">
                         {{ $message }}
